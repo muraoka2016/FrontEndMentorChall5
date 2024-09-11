@@ -1,0 +1,139 @@
+:root{
+    --stone-100: hsl(30, 54%, 90%);
+    --stone-150: hsl(30, 18%, 87%);
+    --stone-600: hsl(30, 10%, 34%);
+    --stone-900: hsl(24, 5%, 18%);
+    --brown-800: hsl(14, 45%, 36%);
+    --rose-800: hsl(332, 51%, 32%);
+    --rose-50: hsl(330, 100%, 98%);
+}
+
+body{
+    min-height: 100vh;
+    margin: 0;
+    background-color: var(--stone-100);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.card-container{
+    margin: 3rem;
+    padding-bottom: 3rem;
+    background-color: white;
+    width: 500px;
+    border-radius: 2rem;
+}
+
+img{
+    display: block;
+    width: 450px;
+    margin: 20px auto auto auto;
+    border-radius: 5%;
+}
+
+h1{
+    font-family: "young", sans-serif;
+    text-align: left;
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+p{
+    font-family: "outfit", sans-serif;
+    font-size: 14px;
+    margin: 20px;
+}
+
+.preparation-container{
+    background-color: var(--rose-50);
+    text-align: left;
+    margin: 20px;
+    border-radius: 5%;
+    gap: 10px;
+}
+
+.prep-h2{
+    font-family: "outfit", sans-serif;
+    font-size: 20px;
+    color: var(--rose-800);
+    margin: 20px 0 0 20px;
+}
+
+li{
+    font-family: "outfit", sans-serif;
+    font-size: 16px;
+    color: var(--stone-600);
+    margin-bottom: 0 20px 10px 20px;
+    padding-bottom: 10px;
+}
+ span{
+    font-weight: bold;
+}
+
+.ingredients-section{
+    background-color: white;
+    text-align: left;
+    margin: 20px;
+    border-radius: 5%;
+    gap: 10px;
+}
+
+h2{
+    font-family: "outfit", sans-serif;
+    font-size: 25px;
+    color: var(--brown-800);
+}
+
+hr {
+    border: none;
+    height: 1px; 
+    background-color: lightgray; 
+    width: 80%; 
+    margin: 20px auto; 
+  }
+
+  .instruction-section{
+    background-color: white;
+    color: var(--stone-600);
+    text-align: left;
+    margin: 20px;
+    border-radius: 5%;
+    gap: 10px;
+}
+
+ol li::marker{
+    color: var(--brown-800);
+    font-weight: bold;
+}
+
+.nutrition-section{
+    background-color: white;
+    color: var(--stone-600);
+    text-align: left;
+    margin: 0 0 0 20px;
+    border-radius: 5%;
+    gap: 10px;
+}
+
+.p-div{
+    display: flex;
+    justify-content: space-around;
+}
+
+.nutrition-p{
+    color: var(--brown-800);
+}
+
+.calories-p{
+    color: var(--brown-800);
+    font-weight: bold;
+}
+
+.attribution{
+    position: relative;
+    bottom: 0;
+    right: 0;
+    
+}
